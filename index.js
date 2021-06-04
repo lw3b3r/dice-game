@@ -25,5 +25,5 @@ function declareWinner(num1, num2) {
 	}
 }
 
-// On page refresh, roll dice
-document.querySelector("body").onload = rollDice();
+// On click, roll dice
+document.addEventListener("click", rollDice);
